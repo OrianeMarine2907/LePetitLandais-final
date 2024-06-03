@@ -1,0 +1,258 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+    text-align: center;
+}
+
+nav {
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 40px;
+    align-items: right;
+}
+
+nav ul li:first-child {
+    margin-right: auto;
+}
+
+nav ul li img {
+    width: 50px;
+    height: auto;
+}
+
+nav ul li a {
+    color: #496989;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #4a90e2;
+}
+
+.banner {
+    background-image: url('https://www.guide-des-landes.com/_bibli/pages_images/30/les-landes-en-france.jpg?v=content&width=558&height=469&pixelRatio=2.0000');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+.banner h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px; 
+    margin-bottom: 20px;
+    margin-top: 0; 
+}
+
+.banner img.logo {
+    width: 150px; 
+    height: auto;
+}
+
+h1.logo img {
+    width: 300px; 
+    height: auto; 
+    margin-right: 10px; 
+}
+
+.banner p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+
+.block-title {
+    text-align: center;
+    margin: 20px;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.block-title img {
+    max-width: 150%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.introduction {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: "Nixie One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.sommaire {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: "Nixie One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.sommaire ol {
+    padding-left: 0;
+    display: inline-block;
+    text-align: left;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.card-container .terroir-card,
+.card-container .activités-card,
+.card-container .feria-card,
+.card-container .ocean-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    max-width: 300px;
+    text-align: center;
+    flex: 1 1 300px;
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-container .terroir-card:hover,
+.card-container .activités-card:hover,
+.card-container .feria-card:hover,
+.card-container .ocean-card:hover {
+    transform: scale(1.05);
+}
+
+.card-container img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-container h4 {
+    font-family: 'Montserrat', sans-serif;
+    color: #4a90e2;
+    padding: 10px;
+}
+
+.card-container p {
+    padding: 0 10px 10px;
+    flex-grow: 1;
+}
+
+.card-container a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    padding: 10px;
+    background-color: #4a90e2;
+    color: white;
+    border-radius: 0 0 10px 10px;
+}
+
+/* style.css */
+
+body {
+    font-family: 'Nixie One', cursive;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h5 {
+    font-size: 1.5rem;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h6 {
+    font-size: 1.2rem;
+    color: #555;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.flex-justify-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+iframe {
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.restaurants {
+    width: 80%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.restaurants p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+}
+
+.restaurants ol {
+    padding-left: 20px;
+}
+
+.restaurants li {
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.restaurants li + p {
+    margin-bottom: 20px;
+}
+
